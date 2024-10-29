@@ -1,4 +1,4 @@
-const apiKey = "1acd5567bf8a523d711f57529b90eba3"; // Replace 'YOUR_API_KEY_HERE' with your actual API key
+const apiKey = "//YOUR_API_KEY_HERE"; // Replace 'YOUR_API_KEY_HERE' with your actual API key
 
 function fetchWeather(city, elementId) {
   // Construct the API URL dynamically
