@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Know your weather</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="clouds"></div>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Weather App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Plan a trip?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="intro.html">What we do?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Popular Searches
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-3 mb-5">
+        <div class="card shadow-sm rounded-5" id="mumbai-weather">
+          <img src="images\logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mumbai</h5>
+            <p class="card-text">मुंबई</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item temperature">Temperature</li>
+            <li class="list-group-item feels-like">Feels Like</li>
+            <li class="list-group-item wind-speed">Wind Speed</li>
+          </ul>
+          <div class="card-body">
+            <a href="mumbaiCard.html" class="btn btn-primary">Know More !!</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 md-5">
+        <div class="card shadow-sm rounded-5" id="los_angeles-weather">
+          <img src="images\logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Los Angeles</h5>
+            <p class="card-text">Los Angeles</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item temperature ">Temperature</li>
+            <li class="list-group-item feels-like">Feels Like</li>
+            <li class="list-group-item wind-speed">Wind Speed</li>
+          </ul>
+          <div class="card-body">
+            <a href="LosAngelesCard.html" class="btn btn-primary">Know more !!</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 md-5">
+        <div class="card shadow-sm rounded-5" id="paris-weather">
+          <img src="images\logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Paris</h5>
+            <p class="card-text">Paris</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item temperature">Temperature</li>
+            <li class="list-group-item feels-like">Feels Like</li>
+            <li class="list-group-item wind-speed">Wind Speed</li>
+          </ul>
+          <div class="card-body">
+            <a href="parisCard.html" class="btn btn-primary">Know more !!</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 md-5">
+        <div class="card shadow-sm rounded-5" id="tokyo-weather">
+          <img src="images\logo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tokyo</h5>
+            <p class="card-text">東京</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item temperature">Temperature</li>
+            <li class="list-group-item feels-like">Feels Like</li>
+            <li class="list-group-item wind-speed">Wind Speed</li>
+          </ul>
+          <div class="card-body">
+            <a href="tokyoCard.html" class="btn btn-primary">Know more !!</a>
+            <!-- <a href="#" class="card-link">Another link</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cookies message -->
+  <!-- <div class="gdpr-banner">
+    <div class="gdpr-banner__wrapper">
+      <div class="gdpr-banner__column gdpr-banner__column--1">
+        <div class="gdpr-banner__row">
+          <div class="gdpr-banner__message">
+            We use cookies to personalize content and to analyze our traffic. Please decide if you are willing to accept
+            cookies from our website.
+          </div>
+        </div>
+      </div>
+      <div class="gdpr-banner__column gdpr-banner__column--2">
+        <div class="gdpr-banner__settings">
+          <a role="link" rel="privacy" href="https://openweathermap.org/cookies" data-request="onDecline"
+            data-request-success="document.location.href = 'https://openweathermap.org/cookies'">
+            Advanced Settings
+          </a>
+        </div>
+        <div class="gdpr-banner__opt-out">
+          <button role="button" tabindex="0" aria-pressed="false"
+            class="gdpr-banner__button gdpr-banner__button--opt-out" data-request="onDecline"
+            data-request-success="document.querySelector('.gdpr-banner').remove()">
+            Decline
+          </button>
+        </div>
+        <div class="gdpr-banner__opt-in">
+          <button role="button" tabindex="0" aria-pressed="false"
+            class="gdpr-banner__button gdpr-banner__button--opt-in" data-request="onAccept"
+            data-request-success="document.querySelector('.gdpr-banner').remove()"
+            data-request-update="'gtag' : '#gdpr-reload'">
+            Accept
+          </button>
+        </div>
+        <div class="gdpr-banner__dismiss">
+          <button role="button" tabindex="0" aria-pressed="false" class="gdpr-banner__button--dismiss"
+            onclick="document.querySelector('.gdpr-banner').remove()">×</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>

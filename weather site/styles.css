@@ -1,0 +1,66 @@
+nav{
+    background-color: cadetblue;
+}
+
+img{
+    width: 20;
+    height: 20;
+}
+
+
+.gdpr-banner {
+    position: fixed;
+    padding: 10px;
+    color: #fff;
+    background-color: #333;
+    bottom: 0;
+    z-index: 10000;
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 16pt;
+}
+
+.mobile-padding {
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+.section-content {
+    width: 100%;
+    max-width: 900px;
+    padding: 24pt 0;
+}
+
+/* styles.css */
+body {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #87CEEB, #f0f8ff); /* Sky-like gradient */
+    overflow: hidden;
+}
+
+/* .clouds {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('C:/Users/aarya/Desktop/Web Dev Projs/weather site/images/Cartoon_cloud.svg.png') repeat-x;
+    animation: moveClouds 30s linear infinite;
+    z-index: -1;
+}
+
+@keyframes moveClouds {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 10000px 0;
+    }
+} */

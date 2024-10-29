@@ -1,6 +1,3 @@
-body{
-    background-color: rgb(61, 196, 230);
-}
 
 p{
     font-size: medium;
@@ -8,14 +5,60 @@ p{
 }
 
 li{
-    font-size: medium;
+    font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h2{
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutMe{
+    background-color: #b2ebf2;
     font-size:x-large;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 10px; */
+    /* padding: 20px; */
+}
+
+h2{
+    margin-left: 10px; 
+    
+}
+
+.info{
+    background-color:#b2ebf2;
+    color: var(--bs-dark);
+}
+
+.info h2{
+    background-color: #00bcd4;
+    margin-left: 0px;
+    font-style: oblique;
+}
+
+.moreInfo{
+    background-color: #00bcd4;
+}
+
+.moreInfo p:hover{
+    background-color: bisque;
+}
+
+.moreInfo h3,p{
+    text-decoration-color: beige;
+    margin-left: 1%;
+}
+
+.moreInfo h2{
+    background-color: lightsteelblue;
+    margin-left: 0px;
+    font-style: oblique;
 }
 
 .container{
@@ -26,6 +69,7 @@ h2{
 }
 
 .header{
+    background-color: var(--bs-warning);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,22 +78,47 @@ h2{
 
 .header-content{         /* flex creates equal length columns which adjust dynamically */
     flex: 1;
+    margin-right: 30px;
 }
 
 .img-content{
-    flex: 0 0 200px;
-    margin: 20px;
+    flex: 0 0 20px;
+    margin:2%;
+    margin-left: 20%;
 }
 
-.image-content img{
-    /* align-items: center;
-    gap: 20px; */
-    max-width: 100%;
-    height: auto;
+.profile-pic{
+    height:200px;
+    width: 170px;
+    border-radius: 10%;
 }
 
 .para{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: coral;
+}
+
+.navbar a {
+    float: left; /* Make links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+  
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
 }
 
